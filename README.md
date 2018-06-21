@@ -26,3 +26,18 @@ Sublim Text 3. Setting
 	"trim_trailing_white_space_on_save": true,
 	"update_check": false
 }
+
+/*Key-Map*/
+[
+	{ "keys": ["ctrl+k", "ctrl+i"], "command": "gist" },
+	{ "keys": ["ctrl+k", "ctrl+p"], "command": "gist_private" },
+	{ "keys": ["ctrl+k", "ctrl+s"], "command": "gist_update_file" },
+	{ "keys": ["ctrl+k"], "command": "gist_list" },
+	{ "keys": ["ctrl+k", "ctrl+["], "command": "insert_gist_list" },
+	{ "keys": ["ctrl+k", "ctrl+]"], "command": "gist_add_file" },
+	{ "keys": ["ctrl+k", "ctrl+g"], "command": "gist_gitio" },
+	{ "keys": ["ctrl+shift+s"], "command": "auto_save" },
+	{ "keys": ["ctrl+alt+c"], "command": "css_comb" },
+	{ "keys": ["ctrl+alt+s"], "command": "color_picer" },
+	{ "keys": ["alt+shift+f"], "command": "reindent" },
+]
